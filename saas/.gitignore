@@ -41,4 +41,7 @@ yarn-error.log*
 next-env.d.ts
 
 # clerk configuration (can include secrets)
-/.clerk/
+.clerk/
+
+# Exclude auth.config.ts file
+auth.config.ts

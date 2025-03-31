@@ -57,7 +57,8 @@ Webhooks are automated message (EVENT) sent from app when something happens. Sin
 For the NextJS we will do `npm run dev`
 For the convex server we will use the  `npx convex dev`
 
+1. See if the JWT token has expired, in such case update create new JWT token on Clerk and then update it in the `auth.config.js` for convex.
 
-1. The command npm i packagename --legacy-peer-deps will ignore peer dependency conflicts and install the package as it would have in older versions of npm (prior to npm 7). This can help if the package you're trying to install has dependencies that are incompatible with your version of React. Keep in mind:
+2. The command npm i packagename --legacy-peer-deps will ignore peer dependency conflicts and install the package as it would have in older versions of npm (prior to npm 7). This can help if the package you're trying to install has dependencies that are incompatible with your version of React. Keep in mind:
 - This is a workaround, and it might lead to issues if the package relies on a peer dependency that's not properly supported in your current React version.
 - It's always a good idea to check if the package has an updated version or if the package maintainers have recommended solutions for the issue.
